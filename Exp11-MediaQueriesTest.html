@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            /* hsl :  hue, saturation, lightness*/
+            .container{
+                margin:0 auto;
+                background:hsl(154,94%,37%);
+                box-sizing: border-box;
+            }
+            /* smart phones(potrait nd landscape)------*/
+            @media screen and (min-width: 320px){
+                .container{
+                        width: 100%;
+                        padding:5px 10px;
+                }
+            }
+            /* tablets, ipads (potrait and landscape)----*/
+            @media screen and (min-width: 768px) and (max-width: 1024px){
+                .container{
+                        width: 100%;
+                        padding:5px 10px;
+                }
+            }
+            /* low resolution Desktops and laptops....*/
+            @media screen and (min-width: 1024px){
+                .container{
+                        width: 100%;
+                        padding:5px 10px;
+                }
+            }
+            /* high resolution Desktops and laptops....*/
+            @media screen and (min-width: 1280px){
+                .container{
+                        width: 100%;
+                        padding:5px 10px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div classs="container">
+            <p>This Java Tutorial is designed for beginners as well as experienced professionals. 
+                Whether you’re starting your Java journey and looking to understand the basics of Java or its advanced concepts, 
+                this free Java tutorial is the perfect resource for you.
+
+                What is Java?
+                Developed by Sun Microsystems in 1995, Java is a highly popular, object-oriented programming language. 
+                This platform independent programming language is utilized for Android development, web development, 
+                artificial intelligence, cloud applications, and much more.
+                
+                In this tutorial, we will cover everything from the basics of Java syntax to advanced 
+                topics like object-oriented programming and exception handling. So, by the end of this tutorial, 
+                you will have a strong understanding of Java and be ready to start writing your own Java applications. 
+                So let’s get started on this comprehensive Free Java programming course!</p>
+        </div>
+    </body>
+</html>

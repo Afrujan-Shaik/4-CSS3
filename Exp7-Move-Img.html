@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>CSS3 Animation</title>
+        <style>
+            .afru{
+                margin:150px;
+                width: 800px;
+                height: 600px;
+                background: url('Terrain.png')no-repeat;
+                position:relative;
+                animation: repeatit 3s linear 1s infinite alternate;
+            }
+            @keyframes repeatit{
+                from{left: 0;}
+                to{left: 80%;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="afru"></div>
+    </body>
+</html>
